@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
+title: Cheng's blog.
+subtitle: 奋斗不息，编码不止
+description: java,redis,zookeeper,dubbo,kafka
+keywords: java,redis,zookeeper,dubbo,kafka
+author: 程宸瑞
 language: zh-Hans
 timezone:
 
