@@ -25,6 +25,7 @@ npm install //安装
 hexo server //开启服务
 ```
 2. 打开浏览器输入localhost:4000查看：
+![](Hexo_1/2018022200121435.png)
     
 ## 选择主题nexT
 1. 在站点根目录输入git clone https://github.com/iissnan/hexo-theme-next themes/next：
@@ -41,4 +42,3 @@ hexo clean  //清除缓存
 hexo g  //重新生成代码
 hexo s  //部署到本地
 ```
-
