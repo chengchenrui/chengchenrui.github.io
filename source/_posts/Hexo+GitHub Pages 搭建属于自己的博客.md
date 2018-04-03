@@ -12,11 +12,10 @@ date: 2018-03-29 21:59:00
 2. 安装Git(此过程略去，程序员必备)
 
 
-3. 使用npm安装Hexo
-
- ```
-  npm install -g hexo-cli
- ```
+3. 使用==npm==安装==Hexo==
+```
+npm install -g hexo-cli
+```
 ## 开始搭建博客
 1. 随便找个文件夹打开终端（我是在E盘），输入：
 ```
@@ -26,27 +25,20 @@ npm install //安装
 hexo server //开启服务
 ```
 2. 打开浏览器输入localhost:4000查看：
-![image]()
-
-    看到这个样子就说明成功了（由于我搭建的时候没截图，这张图片我在网上Download的），这个就是hexo默认的博客主题。现在你已经可以在这个主题下写博客了。
-
-    当然，我是不喜欢这样的，幸好，github上有大量的主题可供选择，这里我选择使用nexT主题。
     
 ## 选择主题nexT
 1. 在站点根目录输入git clone https://github.com/iissnan/hexo-theme-next themes/next：
-
 ```
 E:\>cd blog
-
 E:\blog>cd themes
-
 E:\blog\themes>git clone https://github.com/iissnan/hexo-theme-next themes/next
 ```
 2. 完成后，打开blog文件夹下的_config.yml文件，找到theme字段，把landscape改为next：
-![image]()
+
 3. 在终端输入：
 ```
 hexo clean  //清除缓存
 hexo g  //重新生成代码
 hexo s  //部署到本地
 ```
+
