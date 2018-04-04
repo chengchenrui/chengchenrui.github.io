@@ -6,7 +6,8 @@ tags:
 # Hexo安装
 ## 安装node.js
 - [node.js下载](https://nodejs.org/en/)
-- 从上面的链接下载node.js，并安装。
+- 从上面的链接下载node.js，并安装。  
+
 ## 设置npm淘宝镜像站
 - npm默认的源的下载速度可能很慢，建议使用淘宝镜像替换。
 - 执行下面的命令，将npm的源设置成淘宝镜像站。
@@ -14,15 +15,15 @@ tags:
 npm config set registry "https://registry.npm.taobao.org"
 ```
 
-# Github相关配置
-## 配置ssh
+## Github相关配置
+### 配置ssh
 - 生成ssh密匙
 ```
 ssh-keygen -t rsa -C "你的GitHub注册邮箱"
 ```
 - 此时，在用户文件夹下就会有一个新的文件夹.ssh，里面有刚刚创建的ssh密钥文件id_rsa和id_rsa.pub
 
-## 将公匙添加到github上
+### 将公匙添加到github上
 - 详细教程自行baidu
 - 用户头像→Settings→SSH and GPG keys→New SSH key→将id_rsa.pub中的内容复制到Key文本框中，然后点击Add SSH key(添加SSH)按钮
 
@@ -103,12 +104,12 @@ hexo clean && hexo g -s
 hexo clean && hexo g -d
 ```
 
-# 常见问题
-## hexo deploy没有反应？
+## 常见问题
+### hexo deploy没有反应？
 - 修改配置文件：_config.yml时，冒号后面没加空格。
 
-## hexo s 网站打不开？
+### hexo s 网站打不开？
 - 端口占用，换个端口就好了。执行命令hexo s -p 5000，并在浏览器地址栏输入http://localhost:5000，回车访问。
 
-## 如何换主题？
+### 如何换主题？
 - 将主题下载后，放到themes文件夹中即可。例如，下面命令安装next主题：git clone https://github.com/iissnan/hexo-theme-next themes/next
