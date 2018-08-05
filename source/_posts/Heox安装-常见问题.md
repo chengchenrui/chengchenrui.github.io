@@ -1,5 +1,5 @@
 ---
-title: Heox安装&常见问题
+title: Heox安装及常见问题
 date: 2018-04-04 12:18:26
 tags: "Hexo"
 categories: Hexo
