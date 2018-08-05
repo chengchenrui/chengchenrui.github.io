@@ -1,7 +1,8 @@
 ---
 title: Heox安装&常见问题
 date: 2018-04-04 12:18:26
-tags:
+tags: "Hexo"
+categories: Hexo
 ---
 # Hexo安装
 ## 安装node.js

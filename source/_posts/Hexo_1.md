@@ -1,7 +1,7 @@
 title: Hexo+GitHub Pages 搭建属于自己的博客
-tags: []
-categories: []
 date: 2018-03-29 21:59:00
+tags: "Hexo"
+categories: [Hexo,博客搭建]
 ---
 # Hexo+GitHub Pages+Next 搭建博客
 ## 准备工作：

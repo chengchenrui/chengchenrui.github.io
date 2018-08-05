@@ -1,7 +1,8 @@
 ---
 title: Java基础问答（持续更新）
 date: 2018-07-31 13:47:56
-tags:
+tags: "Java"
+categories: JAVA
 ---
 ###### 10.问：接口和抽象类的区别，如何选择？
 解： 
